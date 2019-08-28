@@ -1,0 +1,11 @@
+# input
+/data/input/*
+/data/input/*.md
+
+# output
+/data/output/*/*
+!/data/output/*/*.md
+
+__pycache__
+.pytest_cache
+

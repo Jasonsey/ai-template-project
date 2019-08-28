@@ -1,0 +1,10 @@
+image: 10.114.15.89:8900/cis-analysis:base
+
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - pytest .
+

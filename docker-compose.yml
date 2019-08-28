@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+    cis-analysis:
+        image: 10.114.15.89:8900/cis-analysis:latest
+        container_name: cis-analysis
+        restart: unless-stopped
+        ports:
+            - "8027:8027"
+
